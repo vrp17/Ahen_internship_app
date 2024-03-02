@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C8C9D9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:text="Log In"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dnthaveacc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Don’t have an account? Sign Up"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="YOUR EMAIL"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:textSize="12sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:id="@+id/emailbox"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/custom_shapes"
+            android:hint="Ex. abc@gmail.com"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,SmallSp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="YOUR PASSWORD"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="80dp"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <EditText
+            android:id="@+id/pwdbox"
+            android:layout_width="250dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="82dp"
+            android:background="@drawable/custom_shapes"
+            android:hint="Ex. Az@55"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <EditText
+            android:id="@+id/fgpwd"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="250dp"
+            android:text="@string/forget_password"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText,SmallSp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="407dp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
+
+
+
+

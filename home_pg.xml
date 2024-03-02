@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#000235"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    android:textStyle="bold">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="25dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="NotSibling" />
+
+        <EditText
+            android:id="@+id/cmpname"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5sp"
+            android:background="#000235"
+            android:text="@string/drivesync_scheduler"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/abt"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10dp"
+            android:background="#000235"
+            android:text="About"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds,HardcodedText" />
+
+        <EditText
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginEnd="10dp"
+            android:background="#000235"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/sign_out"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome \n[ Vedant Patil ]"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR SERVICES...."
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="900dp"
+        app:srcCompat="@drawable/img4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/img6" />
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_marginStart="0sp"
+                android:text="Embark on your driving journey with ease! Our user-friendly platform allows you to book car driving sessions seamlessly. Learn from expert instructors at your convenience and gain the skills you need for a confident and safe driving experience."
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SmallSp" />
+
+            <Button
+                android:id="@+id/book1"
+                android:layout_width="157dp"
+                android:layout_height="48dp"
+                android:text="@string/book_now"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="370dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/text5"
+                android:layout_width="200dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10sp"
+                android:text="Renew and update your vehicle license hassle-free with our online platform. Stay road-legal effortlessly by completing the renewal process from the comfort of your home. Streamlined and secure, ensuring your license is up-to-date with just a few clicks."
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SmallSp" />
+
+            <Button
+                android:id="@+id/book2"
+                android:layout_width="157dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/start_now"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="161dp"
+            android:layout_height="131dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/img7" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/img8" />
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginStart="0sp"
+                android:text="Ensure your peace of mind on the road – effortlessly renew and update your vehicle insurance online. Swift and secure, our platform simplifies the process, keeping your coverage current with just a few clicks. Stay protected with seamless insurance management from the comfort of your home."
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SmallSp" />
+
+            <Button
+                android:id="@+id/book3"
+                android:layout_width="157dp"
+                android:layout_height="48dp"
+                android:text="@string/insure_now"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="730dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/text6"
+                android:layout_width="200dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="10sp"
+                android:text="Elevate your online experience – effortlessly update your user profile on our platform. Tailor your preferences, personalize your account, and stay connected with ease. Streamlined and user-friendly, enhancing your profile has never been simpler."
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SmallSp" />
+
+            <Button
+                android:id="@+id/book4"
+                android:layout_width="157dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/update_now"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="132dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/img10" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>
